@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+
+}
+.page{
+ max-width:1600px; 
+ height: 4988px
+
+}
+.image-box {
+display: flex;
+/*justify-content: center;*/
+flex: 51%;
+}
+.content{
+display: flex;
+flex-direction: column;
+flex: 49%;
+}
+.block-1,
+.block-2,
+.block-3,
+.block-4,
+.block-5{
+display: flex;
+margin-bottom:14%;
+}
+.image-left-block{
+	padding:0 0 0 20.996%; 
+}
+.image-right-block{
+	padding:0 20.898% 0 0; 
+}
+.image-left-block,
+.image-right-block{
+	height: auto;
+	width: 100%;
+	max-width: 885px;	
+}
+.logo-img-service{
+	display: flex;
+}
+.logo-netflix{
+	margin-left: 9.472%;
+}
+.logo-youtube{
+	margin-left: 4.882%;
+}
+.logo-netflix,
+.logo-youtube{
+max-width: 22%;
+height: auto;
+opacity: 0.4;
+}
+
+
+
+
+
+.paragraph-right,
+.paragraph-left{
+	font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 300;
+/*font-size: 16px;*/
+font-size:1vw;
+line-height: 19px;
+}
+.paragraph-right{
+	max-width: 362px;
+	height: auto;
+display: flex;
+margin: 2.345% 31.115% 3.710% 9.472%;
+}
+.paragraph-left{
+max-width: 362px;
+max-height:152px;
+display: flex;
+margin: 2.345% 6.25% 0 21.093%;
+}
+
+.title-right,
+.title-left{
+max-width: 500px;
+height: auto;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+/*font-size: 36px;*/
+font-size:2.3vw;
+line-height: 48px;
+text-transform: uppercase;
+}
+.title-right{
+margin: 8.593% 30.468% 0 9.472%;
+}
+.title-left{
+margin: 8.593% 6.25% 0 21.093%;
+}
+.text-img{
+margin: 0 6.25% 0 20.093%;
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size:1vw;
+line-height: 20px;
+}
+.button-control-retry,
+.button-control-slow{
+	vertical-align: middle;
+	max-width: 15%;
+}
+
+
+.button-block1{
+margin: 0 37.890% 0 9.472%;
+}
+.button-block2{ 
+margin: 0 0 0 21.093%;
+}
+.button-block3{ 
+margin: 40px 0 0 9.472%;
+}
+.button-block4{ 
+margin: 7% 0 0 21.093%;
+}
+.button-block5{
+margin: 0 37.890% 0 9.472%;
+}
+.button-block1,
+.button-block3,
+.button-block2,
+.button-block4,
+.button-block5{
+padding: 15px 0 0 0;
+width: 38.75%;
+height: 9.5%;
+border: 1px solid #191A1F;
+border-radius: 28px;
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.25vw;
+line-height: 24px;
+text-align: center;
+vertical-align:middle;
+color:#000000FF;
+}
+
+.button-block1:hover,
+.button-block3:hover,
+.button-block2:hover,
+.button-block4:hover,
+.button-block5:hover{
+	color:white;
+	background: #4F68DE;
+	border: 1px solid #4F68DE;
+}
+.button-block1:action,
+.button-block1:action,
+.button-block2:action,
+.button-block4:action,
+.button-block5:action{
+	color:white;
+	background-color: #637CF2;
+	border: 1px solid #637CF2;
+}
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 601px) {
+  .title {
+    font-size: 18px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px 
+@media screen and (max-width: 600px) {
+  .paragraph {
+    font-size: 8px;
+  }
+}*/
+
